@@ -1936,10 +1936,13 @@
 
       .process-step {
         padding: 15px 10px;
+        position: relative;
+
       }
 
       .process-step:not(:last-child)::after {
         content: "↓";
+        position: absolute;
         left: 50%;
         right: auto;
         top: auto;
